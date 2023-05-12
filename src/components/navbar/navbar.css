@@ -1,0 +1,41 @@
+.narbar{
+    height: 70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 60px;
+}
+
+/* .header{
+    margin: 20px 0px 100px 0px;
+} */
+
+.headerList{
+    display: flex;
+    gap: 40px;
+}
+
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerListItem.active {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
